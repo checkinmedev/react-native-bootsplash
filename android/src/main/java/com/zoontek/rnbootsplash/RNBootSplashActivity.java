@@ -50,6 +50,8 @@ public class RNBootSplashActivity extends AppCompatActivity {
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    // Call setHideOverlayWindows(true) to prevent 3rd party applications from drawing over the window
+    getWindow().setHideOverlayWindows(true);
     forwardIntentToMainActivity(getIntent());
   }
 }
