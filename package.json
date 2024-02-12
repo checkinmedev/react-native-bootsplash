@@ -1,6 +1,6 @@
 {
   "name": "checkinme-react-native-bootsplash-custom",
-  "version": "3.2.4-8",
+  "version": "3.2.4-9",
   "license": "MIT",
   "description": "Display a bootsplash on your app starts. Hide it when you want.",
   "author": "Mathieu Acthernoene <zoontek@gmail.com>",
